@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Saúde Infantil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+
+    header {
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#f1f8f9] text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-[#3c9ecf] py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold text-white">Saúde Infantil</h1>
+      <nav class="mt-4">
+        <ul class="flex flex-wrap justify-center gap-6 text-white font-semibold">
+          <li><a href="./vantagens.html" class="hover:text-gray-200">Vantagens</a></li>
+          <li><a href="./funcionalidades.html" class="hover:text-gray-200">Funcionalidades</a></li>
+          <li><a href="./contato.html" class="hover:text-gray-200">Contato</a></li>
+          <li><a href="./adicionar.html" class="hover:text-gray-200">Tarefas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Introdução -->
+  <section id="sobre" class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold text-[#3c9ecf]">Acompanhe a Recuperação da Criança com Facilidade</h2>
+      <p class="mt-4 max-w-2xl mx-auto">Nosso aplicativo oferece todas as informações sobre o tratamento do seu filho, com lembretes e alertas importantes.</p>
+      <img src="./img/baby.png" alt="Criança sendo tratada" class="mx-auto mt-6 w-full max-w-md rounded-lg shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Vantagens -->
+  <section id="funcionalidades" class="bg-white py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold text-center text-[#3c9ecf] mb-10">Vantagens do App</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-[#f1f8f9] rounded-xl p-6 shadow hover:shadow-lg transition">
+          <h3 class="text-lg font-semibold text-[#3c9ecf]">Prontuário Digital</h3>
+          <p class="mt-2">Acesso completo ao histórico de saúde da criança, com dados do tratamento.</p>
+        </div>
+        <div class="bg-[#f1f8f9] rounded-xl p-6 shadow hover:shadow-lg transition">
+          <h3 class="text-lg font-semibold text-[#3c9ecf]">Notificações em Tempo Real</h3>
+          <p class="mt-2">Receba alertas para medicações, exames e qualquer atualização médica.</p>
+        </div>
+        <div class="bg-[#f1f8f9] rounded-xl p-6 shadow hover:shadow-lg transition">
+          <h3 class="text-lg font-semibold text-[#3c9ecf]">Lembretes Pós-Alta</h3>
+          <p class="mt-2">Organize o pós-tratamento com lembretes automáticos e simples de acompanhar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#3c9ecf] text-white py-4 mt-10">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 App Saúde Infantil - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
