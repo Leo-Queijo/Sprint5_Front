@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Educação Infantil - App Saúde Infantil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen bg-[#f1f8f9] text-gray-800">
+  <!-- Header -->
+  <header class="bg-[#3c9ecf] py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold text-white">Saúde Infantil</h1>
+      <nav class="mt-4">
+        <ul class="flex flex-wrap justify-center gap-6 text-white font-semibold">
+          <li><a href="./index.html" class="hover:text-gray-200">Início</a></li>
+          <li><a href="./vantagens.html" class="hover:text-gray-200">Vantagens</a></li>
+          <li><a href="./funcionalidades.html" class="hover:text-gray-200">Funcionalidades</a></li>
+          <li><a href="./contato.html" class="hover:text-gray-200">Contato</a></li>
+          <li><a href="./adicionar.html" class="hover:text-gray-200">Tarefas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="flex-grow">
+    <section class="text-center py-16">
+      <div class="container mx-auto px-4">
+        <p class="text-xl mb-8">O app oferece ferramentas educativas e interativas para o desenvolvimento das crianças.</p>
+
+        <div class="max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg">
+          <video class="w-full" controls autoplay loop muted>
+            <source src="./videos/Untitled_Project.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+          </video>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer fixo ao final -->
+  <footer class="bg-[#3c9ecf] text-white text-center py-4">
+    <p>&copy; 2025 Saúde Infantil. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
